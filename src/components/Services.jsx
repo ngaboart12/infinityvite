@@ -38,7 +38,7 @@ const Services = () => {
       </svg>,disc:'Subtract scrolling polygon reesizing clip undo undo pixel sta' }
       ];
   return (
-    <div className=' w-full mt-14px px-10   pt-20 sm:px-10  max-h-[160vh] items-center justify-center' id="service">
+    <div className=' w-full mt-14px px-10   pt-20 sm:px-10  max-h-[250vh] items-center justify-center' id="service">
         <div className='relative py-10  flex-col gap-10 sm:gap-20 overflow-hidden bg-[#EEEEEE] flex max-w-7xl sm:flex-row mx-auto z-50 px-10 sm:px-20 sm:py-20  '>
             <div className="absolute left-0 top-0 -z-10">
             <svg width="244" height="548" viewBox="0 0 244 548" fill="none" xmlns="http://www.w3.org/2000/svg">

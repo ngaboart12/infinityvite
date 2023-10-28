@@ -7,7 +7,7 @@ const ContactUs = () => {
   
 
   return (
-    <div className=' relative  max-h-[100vh] ' >
+    <div className=' relative  max-h-[200vh] ' >
       <div className='w-full relative flex px-2 sm:px-20 py-10 bg-[#56697A] justify-center' style={{backgroundImage: `url('..assets/image/contactus.png')`,backgroundRepeat:'no-repeat',backgroundSize:'cover'}}>
         <div className='absolute top-0 left-0 z-20'>
         <svg width="255" height="341" viewBox="0 0 255 341" fill="none" xmlns="http://www.w3.org/2000/svg">

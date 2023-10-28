@@ -9,7 +9,6 @@ const WebMobile = () => {
   return (
     <div className='max-w-6xl mx-auto mt-32 '>
      
-
        <div className='px-10 sm:px-0 sm:grid-cols-2 gap-20 grid  '>
           <div className='flex flex-col gap-3 pt-10'>
             <h1 className='text-3xl font-bold  text-[#F59620]  font-outfit' style={{lineHeight:1}}>Web & mobile app <br /> development</h1>
