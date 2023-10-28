@@ -5,9 +5,9 @@ import backg from '../assets/image/herroBack.png'
 const Hero = () => {
 
   return (
-    <div className='h-[100vh] min-w-5xl mx-auto  pb-10 relative flex flex-col items-center justify-between px-5 '>
+    <div className='h-[100vh] min-w-5xl mx-auto  pb-20 relative flex flex-col items-center justify-between px-5 '>
       <div class="bg-[#3e4b56] absolute opacity-90 -z-10 w-full h-full "></div>
-      <div class="absolute h-full w-full -z-20 overflow-hidden">
+      <div class="absolute h-full w-full flex items-center justify-center -z-20 overflow-hidden">
       <img src={backg} class="object-cover w-full " alt="Infinity Tech Solutions, Unlock the Power of Technology Innovate  , Navigate"/>
       </div>
      <Navbar/>
