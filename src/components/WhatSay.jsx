@@ -7,14 +7,14 @@ function WhatSay() {
     <div className=' flex max-h-[200vh]  w-full flex-col md:flex-row '>
             
 
-    <div className='w-full md:max-w-1/2 flex bg-[#E5E5E5] pt-[105px]'>
+    <div className='w-full px-4 md:max-w-1/2 flex bg-[#E5E5E5] pt-[105px]'>
         
 
 
 
     <div className='max-w-lg mx-auto flex flex-col  max-h-[100vh] gap-6 items-center md:items-start justify-end'>
         <img src={profile} alt='profile' width={130} height={120} />
-        <div className='w-[300px] text-center md:text-start md:w-[400px]'>
+        <div className='w-full text-center md:text-start md:w-[400px]'>
             <span className='text-[#303030] font-outfit'>
               Editor subtract rectangle auto project flatten content opacity 
             hand horizontal. Effect pen draft subtract style background main
@@ -45,10 +45,10 @@ function WhatSay() {
 
 </div>
 
-<div className='w-full md:max-w-1/2  flex-col justify-between px-20 py-[70px]'>
+<div className='w-full md:max-w-1/2  flex  flex-col justify-between px-20 py-[70px]'>
     <h1 className=' font-outfit text-[24px] text-[#F59620] font-bold'>WHAT THEY SAY ABOUT US</h1>
 
-    <div className=' grid grid-cols-1 sm:grid-flow-col-2 md:grid-cols-2   gap-y-20 py-10 '>
+    <div className=' grid grid-cols-1  sm:grid-flow-cols-2  md:grid-cols-2   gap-y-20 py-10 '>
         {/* start part */}
         <div className='flex gap-2 max-h-[20vh] items-center max-w-[300px]'>
             <div>
