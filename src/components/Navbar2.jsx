@@ -1,32 +1,33 @@
 import React, { useState } from 'react';
 import svg from '../assets/image/logo2.png';
+import { Link } from 'react-router-dom';
 function Navbar2() {
   const [isOpen, setIsOPen] = useState(false);
   return (
     <div className=" max-w-7xl h-fit mx-auto mt-5 items-center px-6 sm:px-10 md:px-20 w-full flex justify-between">
-      <a href="">
+      <Link to="/">
         <img src={svg} alt="" width={120} height={100} />
-      </a>
+      </Link>
       <div className="links hidden md:flex text-[#56697A]  text-[18px] gap-10 font-light items-center font-outfit">
-        <a href="/aboutus" className="hover:text-[#F59620]">
+        <Link to="/aboutus" className="hover:text-[#F59620]">
           Home
-        </a>
-        <a href="/ourworks" className="hover:text-[#F59620]">
+        </Link>
+        <Link to="/ourworks" className="hover:text-[#F59620]">
           Our works
-        </a>
-        <a href="/services" className="hover:text-[#F59620]">
+        </Link>
+        <Link to="/services" className="hover:text-[#F59620]">
           Services
-        </a>
-        <a href="#" className="hover:text-[#F59620]">
+        </Link>
+        <Link to="#" className="hover:text-[#F59620]">
           About Us
-        </a>
-        <a
-          href="#"
+        </Link>
+        <Link
+          to="#"
           className=" px-6 py-[13px] border border-[#F59620] text-[#F59620]
          hover:text-white hover:bg-[#F59620]"
         >
           Reach us
-        </a>
+        </Link>
       </div>
       <div className="flex md:hidden" onClick={() => setIsOPen(!isOpen)}>
         open
