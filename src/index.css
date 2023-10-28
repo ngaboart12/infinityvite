@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Outfit:wght@300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+font-family: 'Outfit', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}

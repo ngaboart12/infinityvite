@@ -1,0 +1,13 @@
+
+.all{
+  width: 300vh;
+  height: 100vh;
+  background-color: red;
+}
+.some{
+  background: blue;
+  max-width: 50%;
+  height: 40vh;
+}
+
+
