@@ -7,10 +7,11 @@ import Aboutus from '../components/Aboutus'
 import WhatSay from '../components/WhatSay'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import Footer2 from '../components/Footer2'
 
 function HomePage() {
   return (
-  <>
+  <div>
   <Hero/>
   <Services/>
   <WebMobile/>
@@ -18,8 +19,8 @@ function HomePage() {
   <Aboutus/>
   <WhatSay/>
   <ContactUs/>
-  <Footer/>
-  </>
+  <Footer2/>
+  </div>
   )
 }
 

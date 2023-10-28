@@ -46,7 +46,7 @@ function WhatSay() {
 </div>
 
 <div className='w-full md:max-w-1/2  flex  flex-col justify-between px-20 py-[70px]'>
-    <h1 className=' font-outfit text-[24px] text-[#F59620] font-bold'>WHAT THEY SAY ABOUT US</h1>
+    <h1 className=' font-outfit text-[24px] text-center text-[#F59620] font-bold'>WHAT THEY SAY ABOUT US</h1>
 
     <div className=' grid grid-cols-1  sm:grid-flow-cols-2  md:grid-cols-2   gap-y-20 py-10 '>
         {/* start part */}

@@ -1,7 +1,8 @@
 import React from 'react';
-import service from '../assets/image/service.svg';
+import Navbar2 from '../components/Navbar2';
+import WebDevelopement from '../components/services/webDevelopement';
 
-const Services = () => {
+function ServicePage() {
   const services1 = [
     {
       id: 1,
@@ -177,64 +178,29 @@ const Services = () => {
     },
   ];
   return (
-    <div
-      className=" w-full mt-14px px-10   pt-20 sm:px-10  max-h-[250vh] items-center justify-center"
-      id="service"
-    >
-      <div className="relative py-10  flex-col gap-10 sm:gap-20 overflow-hidden bg-[#EEEEEE] flex max-w-7xl sm:flex-row mx-auto z-50 px-10 sm:px-20 sm:py-20  ">
-        <div className="absolute left-0 top-0 -z-10">
-          <svg
-            width="244"
-            height="548"
-            viewBox="0 0 244 548"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M-294.112 273.846C-294.112 425.087 -173.651 547.692 -25.0558 547.692C123.54 547.692 244 425.087 244 273.846C244 122.605 123.54 0 -25.0558 0C-173.651 0 -294.112 122.605 -294.112 273.846ZM122.1 273.846C122.1 356.565 56.2164 423.622 -25.0558 423.622C-106.328 423.622 -172.212 356.565 -172.212 273.846C-172.212 191.127 -106.328 124.07 -25.0558 124.07C56.2164 124.07 122.1 191.127 122.1 273.846Z"
-              fill="#56697A"
-              fill-opacity="0.2"
-            />
-            <ellipse
-              cx="93.5016"
-              cy="95.1664"
-              rx="93.5016"
-              ry="95.1664"
-              transform="matrix(-1 0 0 1 68.4458 178.68)"
-              fill="#F59620"
-              fill-opacity="0.32"
-            />
-          </svg>
-        </div>
-
-        <div className="flex flex-col gap-1 sm:w-[320px] z-10">
-          <h1 className="text-3xl font-bold text-[#56697A] mb-1 leading-none font-outfit">
-            Our Services
-          </h1>
-          <p className="text-[14px] text-base font-light w-full font-outfit ">
-            Explore our comprehensive range of services designed to meet your
-            needs and exceed your expectations. F
-          </p>
-          <button className="flex items-start justify-between  gap-2 mt-6 py-2.5 px-4 w-fit max-w-[200px] font-outfit  rounded-md text-white bg-[#F59620] group transition-all duration-300">
-            Discover More
-          </button>
-        </div>
-        {/* our services */}
-
+    <div className="flex w-full flex-col mx-auto gap-6">
+      {/* navbar */}
+      <Navbar2 />
+      {/* end navbar */}
+      <div className="flex  flex-col gap-[113px] justify-center w-full items-center ">
+        <h1 className="text-[40px] text-center text-[#5F7487] font-bold leading-10 mt-10">
+          "Creating Tomorrow's <br /> Technology with a Smile!"
+        </h1>
         {/* first line services */}
-        <div className=" mt-10 sm:mt-0 gap-5 md:grid-cols-2 md:gap-10 lg:grid-cols-3 grid lg:gap-12 flex-1">
+
+        <div className="max-w-6xl mt-10 sm:mt-0  md:grid-cols-2 md:gap-10 lg:grid-cols-3 grid  flex-1">
           {services1.map((item) => (
             <div
               key={item.id}
-              className="flex items-start flex-col gap-2 group cursor-pointer "
+              className="flex items-start flex-col  group cursor-pointer "
             >
-              <div className="flex h-14 max-w-1/2 items-center justify-center ">
+              <div className="flex max-w-1/2 items-center justify-center ">
                 {item.image}
               </div>
               <h4 className="text-[#292D32] text-[18px] font-medium mt-2 font-outfit ">
                 {item.name}
               </h4>
-              <p className=" text-[14px] font-normal line-clamp-2 w-full font-outfit">
+              <p className=" max-w-[200px] text-[14px] text-[#848484] font-normal line-clamp-2 w-full font-outfit">
                 {item.disc}
               </p>
               <a href="#">
@@ -254,9 +220,12 @@ const Services = () => {
             </div>
           ))}
         </div>
+        <div>
+          <WebDevelopement />
+        </div>
       </div>
     </div>
   );
-};
+}
 
-export default Services;
+export default ServicePage;
