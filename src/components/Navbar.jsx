@@ -9,7 +9,7 @@ const Navbar = () => {
         <img src={svg} alt="" width={120} height={100} />
       </a>
       <div className="links hidden md:flex text-white  text-[18px] gap-10 font-light items-center font-outfit">
-        <Link to="/aboutus" className="hover:text-[#F59620]">
+        <Link to="/" className="hover:text-[#F59620]">
           Home
         </Link>
         <Link to="/ourworks" className="hover:text-[#F59620]">
