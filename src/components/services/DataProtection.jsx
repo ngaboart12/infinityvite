@@ -4,11 +4,11 @@ import service2 from '../../assets/image/service2.png';
 import nodejs from '../../assets/image/nodejs.png';
 import reactjs from '../../assets/image/reactjs.png';
 
-function WebDevelopement() {
+function DataProtection() {
   return (
     <div className="relative  w-full gap-8  flex flex-col ">
       <h1 className="text-[32px] text-center text-[#F59620] font-[700]">
-        Web Development
+        Data Protection
       </h1>
       <div className="flex max-w-7xl flex-col md:flex-row">
         <div className="relative  h-[400px] pt-20 px-20 flex w-full md:w-1/2 justify-end bg-[#EEEEEE]">
@@ -47,47 +47,6 @@ function WebDevelopement() {
               quisque lacus rutrum eu purus accumsan at cursus hac. Convallis
               amet aliquet nisi aenean.
             </p>
-            <div className="flex-col gap-20 py-5">
-              <h1 className="text-[18px] font-[600] text-black">
-                Our technologies
-              </h1>
-              <div className="flex gap-10">
-                <div className="flex flex-col gap-2">
-                  <div className=" overflow-hidden">
-                    <img src={reactjs} alt="" width={40} height={20} />
-                  </div>
-                  <h1 className="text-[18px] font-[600] text-black">
-                    React js
-                  </h1>
-                </div>
-
-                <div className="flex flex-col gap-2">
-                  <div className="h-[7vh] flex overflow-hidden items-center justify-center">
-                    <img src={nodejs} alt="" width={70} height={20} />
-                  </div>
-                  <h1 className="text-[18px] font-[600] text-black">
-                    React js
-                  </h1>
-                </div>
-                <div className="flex flex-col gap-2">
-                  <div className=" overflow-hidden">
-                    <img src={reactjs} alt="" width={40} height={20} />
-                  </div>
-                  <h1 className="text-[18px] font-[600] text-black">
-                    React js
-                  </h1>
-                </div>
-
-                <div className="flex flex-col gap-2">
-                  <div className="h-[7vh] flex overflow-hidden items-center justify-center">
-                    <img src={nodejs} alt="" width={70} height={20} />
-                  </div>
-                  <h1 className="text-[18px] font-[600] text-black">
-                    React js
-                  </h1>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div className="flex flex-col  w-full mt-4 gap-4 md:mt-0 md:w-1/2 justify-center items-center md:items-start md:justify-start px-4">
@@ -115,4 +74,4 @@ function WebDevelopement() {
   );
 }
 
-export default WebDevelopement;
+export default DataProtection;

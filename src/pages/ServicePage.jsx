@@ -1,6 +1,12 @@
 import React from 'react';
 import Navbar2 from '../components/Navbar2';
 import WebDevelopement from '../components/services/webDevelopement';
+import SystemAnalysis from '../components/services/SystemAnalysis';
+import DataProtection from '../components/services/DataProtection';
+import Audit from '../components/services/Audit';
+import Networking from '../components/services/Networking';
+import ContactUs from '../components/ContactUs';
+import Footer2 from '../components/Footer2';
 
 function ServicePage() {
   const services1 = [
@@ -178,17 +184,17 @@ function ServicePage() {
     },
   ];
   return (
-    <div className="flex w-full flex-col mx-auto gap-6">
+    <div className="">
       {/* navbar */}
       <Navbar2 />
       {/* end navbar */}
-      <div className="flex  flex-col gap-[113px] justify-center w-full items-center ">
+      <div className="flex flex-col gap-6 justify-center w-full items-center ">
         <h1 className="text-[40px] text-center text-[#5F7487] font-bold leading-10 mt-10">
           "Creating Tomorrow's <br /> Technology with a Smile!"
         </h1>
         {/* first line services */}
 
-        <div className="max-w-6xl mt-10 sm:mt-0  md:grid-cols-2 md:gap-10 lg:grid-cols-3 grid  flex-1">
+        <div className="max-w-6xl mt-10 sm:mt-0  sm:grid-cols-2 md:gap-10 lg:grid-cols-3 grid  flex-1">
           {services1.map((item) => (
             <div
               key={item.id}
@@ -220,8 +226,26 @@ function ServicePage() {
             </div>
           ))}
         </div>
-        <div>
+        <div className="mt-[100px]">
           <WebDevelopement />
+        </div>
+        <div className="mt-[100px]">
+          <SystemAnalysis />
+        </div>
+        <div className="mt-[100px]">
+          <DataProtection />
+        </div>
+        <div className="mt-[100px]">
+          <Audit />
+        </div>
+        <div className="mt-[100px]">
+          <Networking />
+        </div>
+        <div className="mt-[100px]">
+          <ContactUs />
+        </div>
+        <div className="">
+          <Footer2 />
         </div>
       </div>
     </div>
