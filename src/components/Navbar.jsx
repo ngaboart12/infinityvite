@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import svg from '../assets/image/logo.png';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
-  const [isOpen, setIsOPen] = useState(true);
+  const [isOpen, setIsOPen] = useState(false);
   return (
     <div className=" max-w-7xl h-fit mx-auto mt-5 items-center px-6 sm:px-10 md:px-20 w-full flex justify-between">
       <a to="">
