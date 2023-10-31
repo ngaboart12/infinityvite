@@ -226,6 +226,7 @@ function ServicePage() {
             </div>
           ))}
         </div>
+
         <div className="mt-[100px]">
           <WebDevelopement />
         </div>
@@ -244,7 +245,7 @@ function ServicePage() {
         <div className="mt-[100px]">
           <ContactUs />
         </div>
-        <div className="">
+        <div className="mt-[100px]">
           <Footer2 />
         </div>
       </div>

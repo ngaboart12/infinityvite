@@ -9,7 +9,7 @@ function Navbar2() {
         <img src={svg} alt="" width={120} height={100} />
       </Link>
       <div className="links hidden md:flex text-[#56697A]  text-[18px] gap-10 font-light items-center font-outfit">
-        <Link to="/aboutus" className="hover:text-[#F59620]">
+        <Link to="/" className="hover:text-[#F59620]">
           Home
         </Link>
         <Link to="/ourworks" className="hover:text-[#F59620]">
@@ -29,16 +29,33 @@ function Navbar2() {
           Reach us
         </Link>
       </div>
-      <div className="flex md:hidden" onClick={() => setIsOPen(!isOpen)}>
-        open
-      </div>
+      {isOpen ? (
+        <div className="flex md:hidden" onClick={() => setIsOPen(!isOpen)}>
+          close
+        </div>
+      ) : (
+        <div className="flex md:hidden" onClick={() => setIsOPen(!isOpen)}>
+          open
+        </div>
+      )}
+
       {isOpen ? (
         <div
           className={
-            'absolute flex md:hidden w-1/2 h-[80vh] bg-black right-0 top-20 rounded-l-lg '
+            'absolute z-20 flex md:hidden w-1/2 px-10 pt-10 h-[40vh] bg-[#56697A] right-0 top-20 rounded-l-lg '
           }
           onClick={() => setIsOPen(true)}
-        ></div>
+        >
+          <div className="flex text-white flex-col gap-4  text-[18px]">
+            <a href="/">Home</a>
+            <a href="/ourworks">Our works</a>
+            <a href="/services">Services</a>
+            <a href="/aboutus">About us</a>
+            <button className="py-2 px-10 bg-[#F59620] rounded-md mt-4">
+              Reach as
+            </button>
+          </div>
+        </div>
       ) : (
         ''
       )}

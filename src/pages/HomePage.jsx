@@ -20,7 +20,9 @@ function HomePage() {
       <Aboutus />
       <WhatSay />
       <ContactUs />
-      <Footer2 />
+      <div className="flex items-center justify-center">
+        <Footer2 />
+      </div>
     </div>
   );
 }

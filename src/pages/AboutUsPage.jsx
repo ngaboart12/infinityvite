@@ -15,15 +15,17 @@ function AboutusPage() {
       <div className="flex flex-col gap-6 justify-center w-full items-center ">
         <div className="mt-[50px]">
           <div className="relative  w-full gap-8  flex flex-col ">
-            <div className="flex  max-w-7xl flex-col gap-2 md:flex-row">
-              <div className="relative min-w-[500px]  h-[300px] mt-4  px-20 flex-col w-full md:w-1/2 justify-end ">
-                <button className="px-[30px] py-2 rounded-md font-[900] bg-[#F5962052]">
-                  Aboutus
-                </button>
-                <h1 className="text-2xl md:text-3xl text-[#5F7487] font-bold leading-10">
+            <div className="flex  max-w-7xl items-center justify-center flex-col gap-2 md:flex-row">
+              <div className="relative flex  gap-2   h-[300px] mt-4  px-4 sm:px-20 md:px-20 flex-col w-full md:w-1/2  ">
+                <div className="flex  justify-center items-center md:items-start md:justify-start">
+                  <button className="px-[30px]  py-2 rounded-md font-[900] bg-[#F5962052]">
+                    Aboutus
+                  </button>
+                </div>
+                <h1 className="text-2xl md:text-3xl text-center md:text-start text-[#5F7487] font-bold leading-6 md:leading-10">
                   "Creating Tomorrow's <br /> Technology with a Smile!"
                 </h1>
-                <p className="text-[18px] font-light text-[#515151] line-clamp-5 leading-6">
+                <p className="text-[18px] text-center md:text-start font-light text-[#515151] line-clamp-5 leading-6">
                   Lorem ipsum dolor sit amet consectetur. Est risus tellus
                   lectus volutpat feugiat ultrices. Nulla facilisis varius nisi
                   justo ipsum amet enim. Eu vel iaculis et cursus fermentum
@@ -31,7 +33,7 @@ function AboutusPage() {
                   adipiscing amet ullamcorper. Condimentum fermentum at tellus
                 </p>
               </div>
-              <div className="flex  flex-col min-w-[400px]   w-full mt-4 gap-4 md:mt-0 md:w-1/2 justify-center items-center md:items-start md:justify-start px-8">
+              <div className="flex  flex-col  min-w-[400px]   w-full mt-4 gap-4 md:mt-0 md:w-1/2 justify-center items-center md:items-start md:justify-start px-8">
                 <img
                   src={aboutus}
                   alt=""
@@ -129,7 +131,7 @@ function AboutusPage() {
       <div className="mt-[100px]">
         <ContactUs />
       </div>
-      <div className="">
+      <div className="flex  justify-center items-center">
         <Footer2 />
       </div>
     </div>

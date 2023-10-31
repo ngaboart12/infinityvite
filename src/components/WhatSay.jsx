@@ -58,7 +58,7 @@ function WhatSay() {
         </div>
       </div>
 
-      <div className="w-full md:max-w-1/2  flex  flex-col justify-between px-20 py-[70px]">
+      <div className="w-full md:max-w-1/2 items-center flex  flex-col justify-between px-20 py-[70px]">
         <h1 className=" font-outfit text-[24px] text-center text-[#F59620] font-bold">
           WHAT THEY SAY ABOUT US
         </h1>
